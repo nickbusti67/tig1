@@ -22,7 +22,7 @@ jobs:
         with:
           channel: "stable"
           flutter-version: "3.29.0"
-          architecture: x64
+          cache: true
 
       - name: Install dependencies
         run: flutter pub get
